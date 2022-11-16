@@ -1,0 +1,5 @@
+prompt,outdir,skip_grid,skip_save,ddim_steps,fixed_code,ddim_eta,n_iter,H,W,C,f,n_samples,n_rows,scale,device,from_file,seed,unet_bs,turbo,precision,format,sampler,ckpt
+"a close-up portrait of a cat by pablo picasso, vivid, abstract art, colorful, vibrant",outputs/txt2img-samples,False,False,50,False,0.0,2,512,512,4,8,10,0,7.5,cuda,,27,1,False,autocast,png,plms,models/ldm/stable-diffusion-v1/model.ckpt
+"a close-up portrait of a cat by pablo picasso, vivid, abstract art, colorful, vibrant",outputs/txt2img-samples,False,False,50,False,0.0,2,512,512,4,8,10,0,7.5,cuda,,27,1,False,autocast,png,plms,stable-diffusion/models/ldm/stable-diffusion-v1/model.ckpt
+"a close-up portrait of a cat by pablo picasso, vivid, abstract art, colorful, vibrant",outputs/txt2img-samples,False,False,50,False,0.0,2,512,512,4,8,10,0,7.5,cuda,,27,1,False,autocast,png,plms,stable-diffusion/models/ldm/stable-diffusion-v1/model.ckpt
+Cyberpunk style image of a Tesla car reflection in rain,outputs/txt2img-samples,False,False,50,False,0.0,2,512,512,4,8,5,0,7.5,cuda,,27,1,False,autocast,png,plms,stable-diffusion/models/ldm/stable-diffusion-v1/model.ckpt
