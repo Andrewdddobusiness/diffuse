@@ -2,18 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experiments: {
-    topLevelAwait: true
-  },
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'oaidalleapiprodscus.blob.core.windows.net',
-        port: '',
+        port: '3000',
       },
     ],
   },
+  output: 'standalone'
 }
 
 module.exports = nextConfig
