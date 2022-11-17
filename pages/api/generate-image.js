@@ -13,13 +13,13 @@ export default async function generateImage(req, res) {
     size: "256x256",
   });
    const image_url = response.data.data[0].url
-   console.log(image_url)
+  //  console.log(image_url)
 
-   const imgResult = await fetch(image_url)
-   const blob = await imgResult.blob();
-   const buffer = Buffer.from( await blob.arrayBuffer() )
-   writeFileSync('./img/${Date.now()}.png', buffer)
-   console.log("1")
+  //  const imgResult = await fetch(image_url)
+  //  const blob = await imgResult.blob();
+  //  const buffer = Buffer.from( await blob.arrayBuffer() )
+  //  writeFileSync('./img/${Date.now()}.png', buffer)
+  //  console.log("1")
    return ( 
     res.status(200).json({ result: image_url })
    )
