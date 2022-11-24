@@ -32,6 +32,7 @@ export default function Home() {
       <Header/>
       <main className={styles.main}>
         <h3>Write a prompt!</h3>
+        <h5 style={{color: 'grey', marginLeft: '2rem', marginRight: '2rem', textAlign: "center"}}>i.e. a cute magical flying dog soaring across a city landscape in disney style</h5>
         <form onSubmit={onSubmit}>
           <div className={styles.section}>
             <Input 
